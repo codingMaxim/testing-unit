@@ -1,10 +1,14 @@
 class Person {
-  // Add you solution here
   constructor(name) {
     this.name = name;
+    this.hobbies = [];
   }
 
   introduce() {
-    return "";
+    return "My name is " + this.name;
+  }
+
+  addHobby(newHobby) {
+    return this.hobbies.push(newHobby);
   }
 }

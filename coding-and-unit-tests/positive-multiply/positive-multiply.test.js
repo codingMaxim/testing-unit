@@ -7,4 +7,18 @@ describe("positiveMultiply", function () {
   // multily two positive numbers
   // multiply a negative and positive number
   // multiply two negative numbers
+  it("should return 6", function () {
+    const multiply = positiveMultiply(2, 3);
+    chai.expect(multiply).to.equal(6);
+  });
+
+  it("should return 6", function () {
+    const multiply = positiveMultiply(-2, 3);
+    chai.expect(multiply).to.equal(6);
+  });
+
+  it("should return 6", function () {
+    const multiply = positiveMultiply(-2, -3);
+    chai.expect(multiply).to.equal(6);
+  });
 });

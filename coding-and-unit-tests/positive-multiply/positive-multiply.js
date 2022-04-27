@@ -1,3 +1,7 @@
 function positiveMultiply(a, b) {
-  // add your solution here
+  let result = a * b;
+  if (result < 0) {
+    return result * -1;
+  }
+  return result;
 }

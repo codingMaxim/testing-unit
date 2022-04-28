@@ -15,7 +15,6 @@ describe("speedDatingList", function () {
 
   it("should return an array", function () {
     const speedDating = speedDatingList(["Peter", "Paul", "Mary"]);
-    console.log(speedDating);
     chai.expect(speedDating).to.deep.equal([
       ["Peter", "Paul"],
       ["Peter", "Mary"],
